@@ -1,0 +1,72 @@
+/* Write your code here. */
+.result-card {
+  background-color: #ffffff33;
+  border: 2px solid #ffffff33;
+  display: flex;
+  font-family: 'Roboto';
+  padding: 20px;
+  justify-content: center;
+  border-radius: 10px;
+}
+.result-heading {
+  color: white;
+  font-size: 40px;
+  font-weight: bold;
+}
+.result-para {
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.span-text {
+  color: #6a59ff;
+}
+.play-again-button {
+  border: none;
+  border-radius: 15px;
+  background-color: #ffce27;
+  color: black;
+  font-weight: bold;
+  height: 40px;
+  width: 100px;
+  cursor: pointer;
+  outline: none;
+  margin: auto;
+  margin-top: 16px;
+}
+.text-card {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  margin-right: 30px;
+  text-align: center;
+}
+.result-image {
+  width: 300px;
+}
+@media screen and (max-width: 767px) {
+  .result-card {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin: auto;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  .result-heading {
+    font-size: 25px;
+  }
+  .result-para {
+    font-size: 18px;
+  }
+  .text-card {
+    margin-left: 0px;
+    order: 1;
+  }
+  .result-image {
+    width: 200px;
+  }
+}
